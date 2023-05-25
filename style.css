@@ -5,19 +5,23 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 }
 body{
-  background: #88ABFF;
+  background: #e9adb1;
+  
 }
 ::selection{
   color: #fff;
-  background: #618cf8;
+  background: #e9adb1;
+  
 }
 .wrapper{
   margin: 50px;
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(auto-fill, 265px);
+  
 }
 .wrapper li{
   height: 250px;
@@ -41,14 +45,15 @@ body{
 .add-box .icon{
   height: 78px;
   width: 78px;
-  color: #88ABFF;
+  color: #e9adb1;
   font-size: 40px;
   border-radius: 50%;
   justify-content: center;
-  border: 2px dashed #88ABFF;
+  border: 2px dashed #e9adb1;
+  
 }
 .add-box p{
-  color: #88ABFF;
+  color: #e9adb1;
   font-weight: 500;
   margin-top: 20px;
 }
@@ -227,7 +232,7 @@ form button{
   cursor: pointer;
   font-size: 17px;
   border-radius: 4px;
-  background: #6A93F8;
+  background:#e9adb1;
 }
 @media (max-width: 660px){
   .wrapper{
@@ -253,7 +258,10 @@ form button{
   max-width: 500px;
   background-color: white;
   padding: 2rem;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;border-radius: 50px;
+background: #e5c5d9;
+box-shadow: inset 20px -20px 60px #c3a7b8,
+            inset -20px 20px 60px #ffe3fa;
 }
 
 .form-container input[type='text'],.form-container textarea{
@@ -264,6 +272,7 @@ form button{
   resize: vertical;
   border-radius:.25rem;
   transition:all.3s ease-in-out;
+  
 }
 
 #noteTitleInput::placeholder,#notesTextarea::placeholder{
